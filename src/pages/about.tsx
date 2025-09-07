@@ -23,6 +23,20 @@ export default function About() {
           <li>React</li>
         </ul>
       </div>
+      <br />
+      <div>
+        <h1 className={"text-2xl font-bold space-y-8"}>
+          List of things i like
+        </h1>
+        <ul className={"list-disc list-inside space-y-1"}>
+          <li>Programming</li>
+          <li>Weight-lifting</li>
+          <li>Video games</li>
+          <li>Martial arts</li>
+          <li>Skiing</li>
+          <li>Reading</li>
+        </ul>
+      </div>
     </div>
   );
 }
